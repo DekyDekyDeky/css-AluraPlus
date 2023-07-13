@@ -1,0 +1,16 @@
+.fifthPage-devices__title{
+    text-align: center;
+}
+
+.fifthPage-devices__imgs {
+    justify-content: space-between;
+}
+
+.fifthPage-devices__imgs {
+    padding: 0 var(--margin);
+}
+
+.devicesText {
+    font-size: 32px !important;
+    text-align: center;
+}

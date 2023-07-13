@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;800&display=swap');
+@import url('firstSection.css');
+@import url('thirdSection.css');
+@import url('fifthSection.css');
+@import url('footer.css');
+
+:root {
+    --bgColor: #00030C;
+    --principalTextColor: #FFF;
+    --aHover: #a3a3a3;
+    --minorTextColor: #C0C0C0;
+    --descriptionTextColor: #F9F9F9;
+    --fontFamily: Inter;
+    --principalButtonColor: #167BF7;
+    --principalHoverButtonColor: #0d52a7;
+
+    --margin: 15vh;
+    --spaceBetween: 70px;
+}
+
+body {
+    background: var(--bgColor);
+    font-family: var(--fontFamily);
+}
+
+
+ /*Primeira página*/
+.principalText {
+    color: var(--principalTextColor);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.minorText {
+    color: var(--minorTextColor);
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.descriptionText {
+    color: var(--descriptionTextColor);
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+/*Botões*/
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+    background-color: var(--principalButtonColor);
+
+    text-decoration: none;
+    color: white;
+
+    transition: .5s;
+}
+
+.button:hover {
+    background-color: var(--principalHoverButtonColor);
+}
+
+.signPlanButton_second{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+.signPlanButton_second:hover{
+    background-color: #0d52a73f;
+    border: 1px solid #FFF;
+}
+
+/* Para posicionar as seções */
+
+.sectionSize {
+    height: 100vh;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.paddingLeft {
+    padding-left: var(--margin);
+    padding-right: var(--spaceBetween);
+}
+
+.paddingRight {
+    padding-right: var(--margin);
+}

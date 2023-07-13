@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 145px;
+    margin-bottom: 90px;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+    margin-top: 40px;
+}
+
+.footer__link a{
+    color: var(--principalTextColor);
+    text-decoration: none;
+
+    transition: .5s;
+}
+
+.footer__link a:hover {
+    color: var(--aHover);
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 14px !important;
+}
+
+.footer__copyrightText {
+    margin-top: 24px;
+}
+
+.footer__infoText {
+    margin-top: 20px;
+}
